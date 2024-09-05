@@ -1,0 +1,6 @@
+[submodule "discussion_board_server"]
+	path = discussion_board_server
+	url = https://github.com/Javad-Ak/discussion_board_server
+[submodule "discussion_board_client"]
+	path = discussion_board_client
+	url = https://github.com/Javad-Ak/discussion_board_client
