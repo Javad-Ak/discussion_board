@@ -40,10 +40,10 @@ Notice that The server is running localhost and DEBUG is True. You can use docke
 
 ## Screenshots
 
-<img width="1500" alt="image" src="https://github.com/Javad-Ak/Learning-Logs/blob/main/document/screenshots/image1.png">
-<img width="1500" alt="image" src="https://github.com/Javad-Ak/Learning-Logs/blob/main/document/screenshots/image2.png">
-<img width="1500" alt="image" src="https://github.com/Javad-Ak/Learning-Logs/blob/main/document/screenshots/image3.png">
-<img width="1500" alt="image" src="https://github.com/Javad-Ak/Learning-Logs/blob/main/document/screenshots/image4.png">
+<img width="1500" alt="image" src="https://github.com/Javad-Ak/discussion_board/blob/main/document/screenshots/image1.png">
+<img width="1500" alt="image" src="https://github.com/Javad-Ak/discussion_board/blob/main/document/screenshots/image2.png">
+<img width="1500" alt="image" src="https://github.com/Javad-Ak/discussion_board/blob/main/document/screenshots/image3.png">
+<img width="1500" alt="image" src="https://github.com/Javad-Ak/discussion_board/blob/main/document/screenshots/image4.png">
 
 ## Technologies
 
