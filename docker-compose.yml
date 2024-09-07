@@ -6,22 +6,12 @@ services:
 
   backend:
     build: ./discussion_board_server
-    command: gunicorn discussion_board.wsgi --bind 0.0.0.0:8000
     volumes:
       - static_data:/django_app/static
+      - data_sqlite:/django_app/db
     ports:
       - "8000:8000"
     restart: always
-    env_file:
-      - ./discussion_board_server/.env
-    depends_on:
-      - db
-
-  db:
-    image: postgres:13.0-alpine
-    restart: always
-    volumes:
-      - postgres_data:/var/lib/postgresql/data
     env_file:
       - ./discussion_board_server/.env
 
@@ -42,4 +32,4 @@ volumes:
   react_build:
   static_data:
   media_data:
-  postgres_data:
+  data_sqlite:

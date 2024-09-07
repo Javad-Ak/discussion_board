@@ -3,7 +3,7 @@
 ## Description
 
 Discussion Board is a simple Web app developed using django restful api for backend and reactjs for frontend.
-It's ready for production using docker and nginx with postresql as database.
+It's ready for production using docker and nginx with sqlite as database.
 
 ## Table of Contents
 
