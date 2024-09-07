@@ -7,6 +7,7 @@ services:
   backend:
     build: ./discussion_board_server
     volumes:
+      - media_data:/django_app/media
       - static_data:/django_app/static
       - data_sqlite:/django_app/db
     ports:
