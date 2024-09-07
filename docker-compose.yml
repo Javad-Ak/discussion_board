@@ -21,7 +21,7 @@ services:
     image: postgres:13.0-alpine
     restart: always
     volumes:
-      - postgres_data:/var/lib/postgresql/data:rw
+      - postgres_data:/var/lib/postgresql/data
     env_file:
       - ./discussion_board_server/.env
 
