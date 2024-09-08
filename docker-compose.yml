@@ -9,9 +9,9 @@ services:
     volumes:
       - media_data:/django_app/media
       - static_data:/django_app/static
-      - data_sqlite:/django_app/db
-    ports:
-      - "8000:8000"
+      - db_data:/django_app/db
+    expose:
+      - 8000
     restart: always
     env_file:
       - ./discussion_board_server/.env
@@ -33,4 +33,4 @@ volumes:
   react_build:
   static_data:
   media_data:
-  data_sqlite:
+  db_data:
